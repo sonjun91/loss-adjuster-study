@@ -1,5 +1,5 @@
-const CACHE_NAME = "loss-adjuster-study-v1";
-const APP_FILES = ["./index.html", "./manifest.webmanifest", "./app-icon.svg"];
+const CACHE_NAME = "loss-adjuster-study-v2";
+const APP_FILES = ["./index.html", "./manifest.webmanifest", "./app-icon.svg", "./app-icon-192.png", "./app-icon-512.png"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));
 });
