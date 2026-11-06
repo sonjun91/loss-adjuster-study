@@ -1,0 +1,16 @@
+{
+  "id": "./index.html",
+  "name": "손해평가사 1차 기출 학습",
+  "short_name": "손해평가사 학습",
+  "description": "1회부터 12회까지 손해평가사 1차 기출문제와 해설을 학습합니다.",
+  "lang": "ko-KR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f6f8",
+  "theme_color": "#17334d",
+  "icons": [
+    { "src": "./app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
